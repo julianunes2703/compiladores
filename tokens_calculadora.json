@@ -1,0 +1,606 @@
+{
+  "tokens": [
+    {
+      "token": "FUNCTION",
+      "lexema": "fn",
+      "linha": 1
+    },
+    {
+      "token": "ID",
+      "lexema": "calculadora",
+      "linha": 1
+    },
+    {
+      "token": "LBRACKET",
+      "lexema": "(",
+      "linha": 1
+    },
+    {
+      "token": "ID",
+      "lexema": "op",
+      "linha": 1
+    },
+    {
+      "token": "COLON",
+      "lexema": ":",
+      "linha": 1
+    },
+    {
+      "token": "CHAR",
+      "lexema": "char",
+      "linha": 1
+    },
+    {
+      "token": "COMMA",
+      "lexema": ",",
+      "linha": 1
+    },
+    {
+      "token": "ID",
+      "lexema": "x",
+      "linha": 1
+    },
+    {
+      "token": "COLON",
+      "lexema": ":",
+      "linha": 1
+    },
+    {
+      "token": "FLOAT",
+      "lexema": "float",
+      "linha": 1
+    },
+    {
+      "token": "COMMA",
+      "lexema": ",",
+      "linha": 1
+    },
+    {
+      "token": "ID",
+      "lexema": "y",
+      "linha": 1
+    },
+    {
+      "token": "COLON",
+      "lexema": ":",
+      "linha": 1
+    },
+    {
+      "token": "FLOAT",
+      "lexema": "float",
+      "linha": 1
+    },
+    {
+      "token": "RBRACKET",
+      "lexema": ")",
+      "linha": 1
+    },
+    {
+      "token": "ARROW",
+      "lexema": "->",
+      "linha": 1
+    },
+    {
+      "token": "FLOAT",
+      "lexema": "float",
+      "linha": 1
+    },
+    {
+      "token": "LBRACE",
+      "lexema": "{",
+      "linha": 1
+    },
+    {
+      "token": "IF",
+      "lexema": "if",
+      "linha": 2
+    },
+    {
+      "token": "ID",
+      "lexema": "op",
+      "linha": 2
+    },
+    {
+      "token": "EQ",
+      "lexema": "==",
+      "linha": 2
+    },
+    {
+      "token": "CHAR_LITERAL",
+      "lexema": "'+'",
+      "linha": 2
+    },
+    {
+      "token": "LBRACE",
+      "lexema": "{",
+      "linha": 2
+    },
+    {
+      "token": "RETURN",
+      "lexema": "return",
+      "linha": 3
+    },
+    {
+      "token": "ID",
+      "lexema": "x",
+      "linha": 3
+    },
+    {
+      "token": "PLUS",
+      "lexema": "+",
+      "linha": 3
+    },
+    {
+      "token": "ID",
+      "lexema": "y",
+      "linha": 3
+    },
+    {
+      "token": "SEMICOLON",
+      "lexema": ";",
+      "linha": 3
+    },
+    {
+      "token": "RBRACE",
+      "lexema": "}",
+      "linha": 4
+    },
+    {
+      "token": "ELSE",
+      "lexema": "else",
+      "linha": 5
+    },
+    {
+      "token": "IF",
+      "lexema": "if",
+      "linha": 5
+    },
+    {
+      "token": "ID",
+      "lexema": "op",
+      "linha": 5
+    },
+    {
+      "token": "EQ",
+      "lexema": "==",
+      "linha": 5
+    },
+    {
+      "token": "CHAR_LITERAL",
+      "lexema": "'-'",
+      "linha": 5
+    },
+    {
+      "token": "LBRACE",
+      "lexema": "{",
+      "linha": 5
+    },
+    {
+      "token": "RETURN",
+      "lexema": "return",
+      "linha": 6
+    },
+    {
+      "token": "ID",
+      "lexema": "x",
+      "linha": 6
+    },
+    {
+      "token": "MINUS",
+      "lexema": "-",
+      "linha": 6
+    },
+    {
+      "token": "ID",
+      "lexema": "y",
+      "linha": 6
+    },
+    {
+      "token": "SEMICOLON",
+      "lexema": ";",
+      "linha": 6
+    },
+    {
+      "token": "RBRACE",
+      "lexema": "}",
+      "linha": 7
+    },
+    {
+      "token": "ELSE",
+      "lexema": "else",
+      "linha": 8
+    },
+    {
+      "token": "IF",
+      "lexema": "if",
+      "linha": 8
+    },
+    {
+      "token": "ID",
+      "lexema": "op",
+      "linha": 8
+    },
+    {
+      "token": "EQ",
+      "lexema": "==",
+      "linha": 8
+    },
+    {
+      "token": "CHAR_LITERAL",
+      "lexema": "'*'",
+      "linha": 8
+    },
+    {
+      "token": "LBRACE",
+      "lexema": "{",
+      "linha": 8
+    },
+    {
+      "token": "RETURN",
+      "lexema": "return",
+      "linha": 9
+    },
+    {
+      "token": "ID",
+      "lexema": "x",
+      "linha": 9
+    },
+    {
+      "token": "MULT",
+      "lexema": "*",
+      "linha": 9
+    },
+    {
+      "token": "ID",
+      "lexema": "y",
+      "linha": 9
+    },
+    {
+      "token": "SEMICOLON",
+      "lexema": ";",
+      "linha": 9
+    },
+    {
+      "token": "RBRACE",
+      "lexema": "}",
+      "linha": 10
+    },
+    {
+      "token": "ELSE",
+      "lexema": "else",
+      "linha": 11
+    },
+    {
+      "token": "IF",
+      "lexema": "if",
+      "linha": 11
+    },
+    {
+      "token": "ID",
+      "lexema": "op",
+      "linha": 11
+    },
+    {
+      "token": "EQ",
+      "lexema": "==",
+      "linha": 11
+    },
+    {
+      "token": "CHAR_LITERAL",
+      "lexema": "'/'",
+      "linha": 11
+    },
+    {
+      "token": "LBRACE",
+      "lexema": "{",
+      "linha": 11
+    },
+    {
+      "token": "IF",
+      "lexema": "if",
+      "linha": 12
+    },
+    {
+      "token": "ID",
+      "lexema": "y",
+      "linha": 12
+    },
+    {
+      "token": "EQ",
+      "lexema": "==",
+      "linha": 12
+    },
+    {
+      "token": "INT_CONST",
+      "lexema": "0",
+      "linha": 12
+    },
+    {
+      "token": "LBRACE",
+      "lexema": "{",
+      "linha": 12
+    },
+    {
+      "token": "RETURN",
+      "lexema": "return",
+      "linha": 13
+    },
+    {
+      "token": "FLOAT_CONST",
+      "lexema": "0.0",
+      "linha": 13
+    },
+    {
+      "token": "SEMICOLON",
+      "lexema": ";",
+      "linha": 13
+    },
+    {
+      "token": "RBRACE",
+      "lexema": "}",
+      "linha": 14
+    },
+    {
+      "token": "RETURN",
+      "lexema": "return",
+      "linha": 15
+    },
+    {
+      "token": "ID",
+      "lexema": "x",
+      "linha": 15
+    },
+    {
+      "token": "DIV",
+      "lexema": "/",
+      "linha": 15
+    },
+    {
+      "token": "ID",
+      "lexema": "y",
+      "linha": 15
+    },
+    {
+      "token": "SEMICOLON",
+      "lexema": ";",
+      "linha": 15
+    },
+    {
+      "token": "RBRACE",
+      "lexema": "}",
+      "linha": 16
+    },
+    {
+      "token": "RETURN",
+      "lexema": "return",
+      "linha": 17
+    },
+    {
+      "token": "FLOAT_CONST",
+      "lexema": "0.0",
+      "linha": 17
+    },
+    {
+      "token": "SEMICOLON",
+      "lexema": ";",
+      "linha": 17
+    },
+    {
+      "token": "RBRACE",
+      "lexema": "}",
+      "linha": 18
+    },
+    {
+      "token": "FUNCTION",
+      "lexema": "fn",
+      "linha": 20
+    },
+    {
+      "token": "MAIN",
+      "lexema": "main",
+      "linha": 20
+    },
+    {
+      "token": "LBRACKET",
+      "lexema": "(",
+      "linha": 20
+    },
+    {
+      "token": "RBRACKET",
+      "lexema": ")",
+      "linha": 20
+    },
+    {
+      "token": "LBRACE",
+      "lexema": "{",
+      "linha": 20
+    },
+    {
+      "token": "LET",
+      "lexema": "let",
+      "linha": 21
+    },
+    {
+      "token": "ID",
+      "lexema": "a",
+      "linha": 21
+    },
+    {
+      "token": "COMMA",
+      "lexema": ",",
+      "linha": 21
+    },
+    {
+      "token": "ID",
+      "lexema": "b",
+      "linha": 21
+    },
+    {
+      "token": "COLON",
+      "lexema": ":",
+      "linha": 21
+    },
+    {
+      "token": "FLOAT",
+      "lexema": "float",
+      "linha": 21
+    },
+    {
+      "token": "SEMICOLON",
+      "lexema": ";",
+      "linha": 21
+    },
+    {
+      "token": "ID",
+      "lexema": "a",
+      "linha": 22
+    },
+    {
+      "token": "ASSIGN",
+      "lexema": "=",
+      "linha": 22
+    },
+    {
+      "token": "FLOAT_CONST",
+      "lexema": "1.8",
+      "linha": 22
+    },
+    {
+      "token": "SEMICOLON",
+      "lexema": ";",
+      "linha": 22
+    },
+    {
+      "token": "ID",
+      "lexema": "b",
+      "linha": 23
+    },
+    {
+      "token": "ASSIGN",
+      "lexema": "=",
+      "linha": 23
+    },
+    {
+      "token": "FLOAT_CONST",
+      "lexema": "7.2",
+      "linha": 23
+    },
+    {
+      "token": "SEMICOLON",
+      "lexema": ";",
+      "linha": 23
+    },
+    {
+      "token": "PRINTLN",
+      "lexema": "println",
+      "linha": 24
+    },
+    {
+      "token": "LBRACKET",
+      "lexema": "(",
+      "linha": 24
+    },
+    {
+      "token": "FMT_STRING",
+      "lexema": "\"{}\"",
+      "linha": 24
+    },
+    {
+      "token": "COMMA",
+      "lexema": ",",
+      "linha": 24
+    },
+    {
+      "token": "ID",
+      "lexema": "calculadora",
+      "linha": 24
+    },
+    {
+      "token": "LBRACKET",
+      "lexema": "(",
+      "linha": 24
+    },
+    {
+      "token": "CHAR_LITERAL",
+      "lexema": "'*'",
+      "linha": 24
+    },
+    {
+      "token": "COMMA",
+      "lexema": ",",
+      "linha": 24
+    },
+    {
+      "token": "ID",
+      "lexema": "a",
+      "linha": 24
+    },
+    {
+      "token": "COMMA",
+      "lexema": ",",
+      "linha": 24
+    },
+    {
+      "token": "ID",
+      "lexema": "b",
+      "linha": 24
+    },
+    {
+      "token": "RBRACKET",
+      "lexema": ")",
+      "linha": 24
+    },
+    {
+      "token": "RBRACKET",
+      "lexema": ")",
+      "linha": 24
+    },
+    {
+      "token": "SEMICOLON",
+      "lexema": ";",
+      "linha": 24
+    },
+    {
+      "token": "RBRACE",
+      "lexema": "}",
+      "linha": 25
+    },
+    {
+      "token": "EOF",
+      "lexema": "",
+      "linha": 25
+    }
+  ],
+  "tabelas": {
+    "identificadores": [
+      "calculadora",
+      "op",
+      "x",
+      "y",
+      "a",
+      "b"
+    ],
+    "numeros_inteiros": [
+      "0"
+    ],
+    "numeros_decimais": [
+      "0.0",
+      "1.8",
+      "7.2"
+    ],
+    "textos": [
+      "\"{}\""
+    ]
+  },
+  "estatisticas": {
+    "total_tokens": 114,
+    "identificadores": 6,
+    "numeros_inteiros": 1,
+    "numeros_decimais": 3,
+    "textos": 1,
+    "erros": 0
+  },
+  "erros": [],
+  "arquivo_origem": "calculadora.p",
+  "timestamp": 1709682240.0
+}

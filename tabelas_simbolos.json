@@ -1,0 +1,27 @@
+{
+  "tabelas": [
+    {
+      "escopo": "main",
+      "simbolos": [
+        {
+          "nome": "a",
+          "tipo": "int",
+          "categoria": "variável",
+          "linha": 3
+        },
+        {
+          "nome": "b",
+          "tipo": "int",
+          "categoria": "variável",
+          "linha": 3
+        },
+        {
+          "nome": "c",
+          "tipo": "int",
+          "categoria": "variável",
+          "linha": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "erros_sintaticos": [
+    {
+      "linha": 3,
+      "erro": "Ponto e vírgula esperado"
+    },
+    {
+      "linha": 3,
+      "erro": "Expressão inválida começando com ERRO"
+    },
+    {
+      "linha": 3,
+      "erro": "Ponto e vírgula esperado"
+    },
+    {
+      "linha": 3,
+      "erro": "Expressão inválida começando com ERRO"
+    },
+    {
+      "linha": 3,
+      "erro": "Ponto e vírgula esperado"
+    },
+    {
+      "linha": 3,
+      "erro": "Expressão inválida começando com ASSIGN"
+    },
+    {
+      "linha": 3,
+      "erro": "Ponto e vírgula esperado"
+    },
+    {
+      "linha": 5,
+      "erro": "Expressão inválida começando com ERRO"
+    },
+    {
+      "linha": 5,
+      "erro": "Ponto e vírgula esperado"
+    },
+    {
+      "linha": 6,
+      "erro": "Ponto e vírgula esperado"
+    },
+    {
+      "linha": 6,
+      "erro": "Esperado RBRACKET, encontrado COMMA"
+    },
+    {
+      "linha": 6,
+      "erro": "Ponto e vírgula esperado"
+    },
+    {
+      "linha": 6,
+      "erro": "Expressão inválida começando com ERRO"
+    },
+    {
+      "linha": 6,
+      "erro": "Ponto e vírgula esperado"
+    },
+    {
+      "linha": 6,
+      "erro": "Ponto e vírgula esperado"
+    },
+    {
+      "linha": 6,
+      "erro": "Expressão inválida começando com RBRACKET"
+    }
+  ]
+}
