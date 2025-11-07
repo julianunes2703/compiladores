@@ -1,0 +1,28 @@
+
+ANÁLISE LÉXICA + ANÁLISE SINTÁTICA + TABELA DE SÍMBOLOS
+Alunos: Julia Nunes e Lucas Almeida
+
+
+  RODAR A ANÁLISE LÉXICA
+Execute o seguinte comando no terminal:
+
+    python main.py
+
+O programa pedirá para selecionar o arquivo-fonte (exemplo: `programa.p`).
+Ao final, será criado um arquivo de saída no formato:
+
+    tokens_programa.json
+
+
+ RODAR A ANÁLISE SINTÁTICA + TABELA DE SÍMBOLOS
+Execute o comando:
+
+    python main2.py
+
+O arquivo `main2.py` detecta automaticamente o último
+`tokens_*.json` gerado pela análise léxica
+ Geração dos arquivos de saída:
+
+        saida_sintatica.json
+        tabelas_simbolos.json
+
