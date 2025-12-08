@@ -1,5 +1,5 @@
 
-ANÁLISE LÉXICA + ANÁLISE SINTÁTICA + TABELA DE SÍMBOLOS
+ANÁLISE LÉXICA + ANÁLISE SINTÁTICA + TABELA DE SÍMBOLOS + ANÁLISE SEMANTICA
 Alunos: Julia Nunes e Lucas Almeida
 
 
@@ -25,4 +25,13 @@ O arquivo `main2.py` detecta automaticamente o último
 
         saida_sintatica.json
         tabelas_simbolos.json
+
+RODAR ANÁLISE SEMANTICA
+
+python main_semantico.py
+
+ Geração dos arquivos de saída:
+
+ saida_semantica.json
+
 

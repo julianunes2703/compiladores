@@ -1,68 +1,280 @@
 {
   "erros_sintaticos": [
     {
-      "linha": 3,
-      "erro": "Ponto e vírgula esperado"
+      "linha": 1,
+      "erro": "Erro sintático: esperado LBRACE, encontrado ARROW"
+    },
+    {
+      "linha": 1,
+      "erro": "Expressão inválida começando com FLOAT"
+    },
+    {
+      "linha": 1,
+      "erro": "Erro sintático: esperado SEMICOLON, encontrado LBRACE"
+    },
+    {
+      "linha": 2,
+      "erro": "Expressão inválida começando com IF"
+    },
+    {
+      "linha": 2,
+      "erro": "Erro sintático: esperado SEMICOLON, encontrado ID"
+    },
+    {
+      "linha": 2,
+      "erro": "Expressão inválida começando com EQ"
+    },
+    {
+      "linha": 2,
+      "erro": "Erro sintático: esperado SEMICOLON, encontrado CHAR_LITERAL"
+    },
+    {
+      "linha": 2,
+      "erro": "Expressão inválida começando com LBRACE"
     },
     {
       "linha": 3,
-      "erro": "Expressão inválida começando com ERRO"
-    },
-    {
-      "linha": 3,
-      "erro": "Ponto e vírgula esperado"
-    },
-    {
-      "linha": 3,
-      "erro": "Expressão inválida começando com ERRO"
-    },
-    {
-      "linha": 3,
-      "erro": "Ponto e vírgula esperado"
-    },
-    {
-      "linha": 3,
-      "erro": "Expressão inválida começando com ASSIGN"
-    },
-    {
-      "linha": 3,
-      "erro": "Ponto e vírgula esperado"
+      "erro": "Erro sintático: esperado SEMICOLON, encontrado RETURN"
     },
     {
       "linha": 5,
-      "erro": "Expressão inválida começando com ERRO"
+      "erro": "Função deve começar com 'fn'"
     },
     {
       "linha": 5,
-      "erro": "Ponto e vírgula esperado"
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 5,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 5,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 5,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 5,
+      "erro": "Função deve começar com 'fn'"
     },
     {
       "linha": 6,
-      "erro": "Ponto e vírgula esperado"
+      "erro": "Função deve começar com 'fn'"
     },
     {
       "linha": 6,
-      "erro": "Esperado RBRACKET, encontrado COMMA"
+      "erro": "Função deve começar com 'fn'"
     },
     {
       "linha": 6,
-      "erro": "Ponto e vírgula esperado"
+      "erro": "Função deve começar com 'fn'"
     },
     {
       "linha": 6,
-      "erro": "Expressão inválida começando com ERRO"
+      "erro": "Função deve começar com 'fn'"
     },
     {
       "linha": 6,
-      "erro": "Ponto e vírgula esperado"
+      "erro": "Função deve começar com 'fn'"
     },
     {
-      "linha": 6,
-      "erro": "Ponto e vírgula esperado"
+      "linha": 7,
+      "erro": "Função deve começar com 'fn'"
     },
     {
-      "linha": 6,
+      "linha": 8,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 8,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 8,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 8,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 8,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 8,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 9,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 9,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 9,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 9,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 9,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 10,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 11,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 11,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 11,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 11,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 11,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 11,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 12,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 12,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 12,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 12,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 12,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 13,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 13,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 13,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 14,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 15,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 15,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 15,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 15,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 15,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 16,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 17,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 17,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 17,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 18,
+      "erro": "Função deve começar com 'fn'"
+    },
+    {
+      "linha": 24,
+      "erro": "Erro sintático: esperado RBRACKET, encontrado LBRACKET"
+    },
+    {
+      "linha": 24,
+      "erro": "Erro sintático: esperado SEMICOLON, encontrado CHAR_LITERAL"
+    },
+    {
+      "linha": 24,
+      "erro": "Expressão inválida começando com COMMA"
+    },
+    {
+      "linha": 24,
+      "erro": "Erro sintático: esperado SEMICOLON, encontrado ID"
+    },
+    {
+      "linha": 24,
+      "erro": "Expressão inválida começando com COMMA"
+    },
+    {
+      "linha": 24,
+      "erro": "Erro sintático: esperado SEMICOLON, encontrado ID"
+    },
+    {
+      "linha": 24,
       "erro": "Expressão inválida começando com RBRACKET"
+    },
+    {
+      "linha": 24,
+      "erro": "Erro sintático: esperado SEMICOLON, encontrado RBRACKET"
+    },
+    {
+      "linha": 24,
+      "erro": "Expressão inválida começando com SEMICOLON"
+    },
+    {
+      "linha": 25,
+      "erro": "Erro sintático: esperado SEMICOLON, encontrado RBRACE"
+    },
+    {
+      "linha": 25,
+      "erro": "Erro sintático: esperado RBRACE, encontrado EOF"
     }
   ]
 }

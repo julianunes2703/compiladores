@@ -1,0 +1,150 @@
+{
+  "funcoes": {
+    "calculadora": {
+      "tabela_simbolos": {
+        "escopo": "calculadora",
+        "simbolos": [
+          {
+            "nome": "op",
+            "tipo": "char",
+            "categoria": "parâmetro",
+            "linha": 1
+          },
+          {
+            "nome": "x",
+            "tipo": "float",
+            "categoria": "parâmetro",
+            "linha": 1
+          },
+          {
+            "nome": "y",
+            "tipo": "float",
+            "categoria": "parâmetro",
+            "linha": 1
+          }
+        ]
+      },
+      "ast": {
+        "tipo": "FunctionNode",
+        "name": "calculadora",
+        "params": [
+          [
+            "op",
+            "char",
+            1
+          ],
+          [
+            "x",
+            "float",
+            1
+          ],
+          [
+            "y",
+            "float",
+            1
+          ]
+        ],
+        "body": {
+          "tipo": "BlockNode",
+          "commands": [
+            {
+              "tipo": "BinaryOpNode",
+              "op": "PLUS",
+              "left": {
+                "tipo": "VarNode",
+                "name": "x",
+                "line": 3,
+                "type": null
+              },
+              "right": {
+                "tipo": "VarNode",
+                "name": "y",
+                "line": 3,
+                "type": null
+              },
+              "line": 3,
+              "type": null
+            }
+          ]
+        },
+        "line": 1
+      },
+      "erros_semanticos": [
+        "[ERRO SEMÂNTICO] Variável 'calculadora' não declarada (linha 24)"
+      ]
+    },
+    "main": {
+      "tabela_simbolos": {
+        "escopo": "main",
+        "simbolos": [
+          {
+            "nome": "a",
+            "tipo": "float",
+            "categoria": "variável",
+            "linha": 21
+          },
+          {
+            "nome": "b",
+            "tipo": "float",
+            "categoria": "variável",
+            "linha": 21
+          }
+        ]
+      },
+      "ast": {
+        "tipo": "FunctionNode",
+        "name": "main",
+        "params": [],
+        "body": {
+          "tipo": "BlockNode",
+          "commands": [
+            {
+              "tipo": "AssignNode",
+              "name": "a",
+              "expr": {
+                "tipo": "FloatConstNode",
+                "value": 1.8,
+                "line": 22,
+                "type": "float"
+              },
+              "line": 22
+            },
+            {
+              "tipo": "AssignNode",
+              "name": "b",
+              "expr": {
+                "tipo": "FloatConstNode",
+                "value": 7.2,
+                "line": 23,
+                "type": "float"
+              },
+              "line": 23
+            },
+            {
+              "tipo": "PrintNode",
+              "args": [
+                {
+                  "tipo": "StringNode",
+                  "value": "\"{}\"",
+                  "line": 24,
+                  "type": "string"
+                },
+                {
+                  "tipo": "VarNode",
+                  "name": "calculadora",
+                  "line": 24,
+                  "type": null
+                }
+              ],
+              "line": 24
+            }
+          ]
+        },
+        "line": 20
+      },
+      "erros_semanticos": [
+        "[ERRO SEMÂNTICO] Variável 'calculadora' não declarada (linha 24)"
+      ]
+    }
+  }
+}

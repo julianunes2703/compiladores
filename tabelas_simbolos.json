@@ -1,25 +1,42 @@
 {
   "tabelas": [
     {
+      "escopo": "calculadora",
+      "simbolos": [
+        {
+          "nome": "op",
+          "tipo": "char",
+          "categoria": "parâmetro",
+          "linha": 1
+        },
+        {
+          "nome": "x",
+          "tipo": "float",
+          "categoria": "parâmetro",
+          "linha": 1
+        },
+        {
+          "nome": "y",
+          "tipo": "float",
+          "categoria": "parâmetro",
+          "linha": 1
+        }
+      ]
+    },
+    {
       "escopo": "main",
       "simbolos": [
         {
           "nome": "a",
-          "tipo": "int",
+          "tipo": "float",
           "categoria": "variável",
-          "linha": 3
+          "linha": 21
         },
         {
           "nome": "b",
-          "tipo": "int",
+          "tipo": "float",
           "categoria": "variável",
-          "linha": 3
-        },
-        {
-          "nome": "c",
-          "tipo": "int",
-          "categoria": "variável",
-          "linha": 3
+          "linha": 21
         }
       ]
     }
